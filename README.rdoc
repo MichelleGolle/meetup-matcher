@@ -1,28 +1,19 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This two week group project is an app that analyzes the most common words in a user's
+Tweets and recommends Meetup groups based on the most common words by consuming the Twitter and Meetup APIs.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Setup:
+
+Checkout our project: “git clone https://github.com/MichelleGolle/meetup-matcher.git”
+
+Install any missing gems: “bundle”
+
+Make sure PostgreSQL is running on your local machine.
+
+Initialize the database using the command “rake db:create db:migrate db:seed” to create, migrate and seed the application.
+
+Then go to 'meetupmatcher.herokuapp.com' to checkout the site.
+
+This project was built on Rails 4.2.1
+
+Run the test suite using: “rspec”
